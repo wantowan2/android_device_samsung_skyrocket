@@ -1,12 +1,6 @@
 [
   {
     "remote":      "du",
-    "repository":  "android_device_samsung_qcom-common",
-    "target_path": "device/samsung/qcom-common",
-    "revision":    "du44"
-  },
-  {
-    "remote":      "du",
     "repository":  "android_device_samsung_msm8660-common",
     "target_path": "device/samsung/msm8660-common",
     "revision":    "du44"
