@@ -63,7 +63,7 @@ ro.ril.transmitpower=true
 ro.telephony.call_ring.multiple=0
 
 # for 480x800 panel
-ro.sf.lcd_density=240
+ro.sf.lcd_density=215
 
 # Fields for custom RIL
 telephony.lteOnGsmDevice=1
