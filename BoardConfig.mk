@@ -43,6 +43,10 @@ TARGET_KERNEL_SOURCE        := kernel/samsung/msm8660-common
 # Assert minimum baseband version
 TARGET_BOARD_INFO_FILE ?= device/samsung/skyrocket/board-info.txt
 
+BOARD_KERNEL_CMDLINE        := androidboot.hardware=qcom usb_id_pin_rework=true no_console_suspend=true
+BOARD_KERNEL_BASE           := 0x40400000
+BOARD_KERNEL_PAGESIZE       := 2048
+
 # cat /proc/emmc
 #dev:        size     erasesize name
 #mmcblk0p22: 00fffc00 00000200 "recovery"
